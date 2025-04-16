@@ -750,7 +750,7 @@ namespace {
             ErrorLogger() << "Unable to move design because moved design is missing.";
             return false;
         }
-    
+
         // Find the iterator in the vector
         auto moved_vec_it = existing_it->second.second;
         auto moved_idx = std::distance(m_ordered_design_ids.begin(), moved_vec_it);
